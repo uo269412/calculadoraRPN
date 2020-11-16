@@ -10,7 +10,7 @@
 		<h1>Calculadora RPN</h1>
 		<script src="CalculadoraRPN.js"></script>
 		<div class="calculadora">
-			<div name="calculator" id="calculator">
+			<div id="calculator">
 				<input title = "pila" name="ventanaPila" id="ventanaPila" value = "" disabled>
 				<input title = "resultados" name="ventanaResultados" id="ventanaResultados" value = "" disabled>
 				<div>
@@ -23,15 +23,15 @@
 				</div>
 				<div>
 					<button type="button" id="ln" value="ln" onclick="calculadoraScript.logaritmoNeperiano()">ln</button>
-					<button type= "button" id ="log10" value = "log10"  onclick="calculadoraScript.logaritmoBase10()">log10</button>
+					<button type= "button" id ="log10" value = "log10" onclick="calculadoraScript.logaritmoBase10()">log10</button>
 					<input type="button" id="seven" value="7" onclick="calculadoraScript.añadirAResultados(7)">
 					<input type="button" id="eight" value="8" onclick="calculadoraScript.añadirAResultados(8)">
 					<input type="button" id="nine" value="9" onclick="calculadoraScript.añadirAResultados(9)">
 					<input type="button" id="by" value="*" onclick="calculadoraScript.multiplicar()">
 				</div>
 				<div>		
-					<button type="button" id ="xup2" value = "x&#50"  onclick="calculadoraScript.elevarACuadrado()">x&#50</button>
-					<button type= "button" id ="xup" value = "x&#94"  onclick="calculadoraScript.exponencial()">x&#94</button>	
+					<button type="button" id ="xup2" value = "&#50;" onclick="calculadoraScript.elevarACuadrado()">&#50;</button>
+					<button type= "button" id ="xup" value = "&#94;" onclick="calculadoraScript.exponencial()">&#94;</button>	
 					<input type="button" id="four" value="4" onclick="calculadoraScript.añadirAResultados(4)">
 					<input type="button" id="five" value="5" onclick="calculadoraScript.añadirAResultados(5)">
 					<input type="button" id="six" value="6" onclick="calculadoraScript.añadirAResultados(6)">
@@ -46,7 +46,7 @@
 					<input type="button" id="plus" value="+" onclick="calculadoraScript.sumar()">				
 				</div>
 				<div>
-					<input type="button" id="pi" value="&#960" onclick="calculadoraScript.añadirAResultados(Math.PI)">
+					<input type="button" id="pi" value= "&#960;" onclick="calculadoraScript.añadirAResultados(Math.PI)">
 					<button type="button" id ="P" value = "P"  onclick="calculadoraScript.potencial()">P</button>
 					<input type="button" id="decimal" value="." onclick="calculadoraScript.añadirAResultados(.)">
 					<input type="button" id="zero" value="0" onclick="calculadoraScript.añadirAResultados(0)">
