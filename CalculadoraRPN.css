@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(165, 164, 164)
+	background-color: rgb(165, 164, 164);
+	text-align: center;
 }
 
 body div.calculadora {
@@ -22,7 +23,7 @@ div [type="buttonLarge"] {
 	margin: 5px 0;
 }
 
-div input[type="resultados"] {
+div input[title="resultados"] {
 	height: 50px;
 	width: 100%;
 	background-color: rgb(197, 195, 195);
@@ -33,7 +34,7 @@ div input[type="resultados"] {
     border-radius: 4px;
 }
 
-div input[type="pila"] {
+div input[title="pila"] {
 	height: 50px;
 	width: 100%;
 	background-color: rgb(197, 195, 195);
