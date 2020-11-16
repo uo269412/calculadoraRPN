@@ -16,14 +16,14 @@ div input, button {
 	width: 4em;
 	height: 4em;
 	margin: 2em 2em;
-	background-color: rgb(189, 229, 245);
+	background-color: rgb(255, 255, 255);
 	font-size: 1em;
 }
 
 div input[title="resultados"] {
 	height: 5em;
 	width: 100%;
-	background-color: rgb(233, 231, 231);
+	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
 	padding: 3em 2em;
     margin-bottom: 2em;
@@ -34,7 +34,7 @@ div input[title="resultados"] {
 div input[title="pila"] {
 	height: 5em;
 	width: 100%;
-	background-color: rgb(233, 231, 231);
+	background-color: rgb(255, 255, 255);
 	color: rgb(0, 0, 0);
 	padding: 3em 2em;
     margin-top: 2em;
