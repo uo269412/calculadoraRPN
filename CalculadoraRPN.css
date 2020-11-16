@@ -1,12 +1,12 @@
 body {
 	background-color: rgb(255, 255, 255);
 	text-align: center;
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 body div.calculadora {
 	text-align: center;
-	width: 40em;
+	width: 60em;
 	margin: 0 auto;
 }
 
@@ -14,7 +14,7 @@ div input, button {
 	border-radius: 2em;
 	width: 4em;
 	height: 4em;
-	margin: 1.2em 1em;
+	margin: 2em 2em;
 	background-color: rgb(189, 229, 245);
 	font-size: 1em;
 }
